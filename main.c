@@ -40,14 +40,14 @@ int main()
     actualizarRecuperados(&paises[0], recuperadosDelDia);
     printf("Recuperados despues: %d\n", paises[0].recuperados);
 
-    /*2. Crear una función que se llame invertirCadena que reciba una cadena de caracteres como parámetro
-    y su responsabilidad es invertir los caracteres de la misma.
-    Ejemplo si le pasamos UTN-FRA la deja como ARF-NTU */
+    ///EJ 2
+    printf("Cadena para invertir: %s\n", cadenaParaInvertir);
+
+    invertirCadena(cadenaParaInvertir);
+
+    printf("Cadena ya invertida: %s\n", cadenaParaInvertir);
 
 
-    /*3. Crear una función que se llame ordenarCaracteres que reciba una cadena de
-    caracteres como parámetro y su responsabilidad es ordenarlos caracteres de
-    manera ascendente dentro de la cadena. Ejemplo si le pasamos "algoritmo" la deja como "agilmoort"*/
     //EJ 3
     printf("Cadena sin ordenar: %s\n",cadenaCaracteres);
 
@@ -57,11 +57,6 @@ int main()
 
     printf("Cadena ordenada Ascendente: %s\n",cadenaCaracteres);
 
-    printf("Cadena para invertir: %s\n", cadenaParaInvertir);
-
-    invertirCadena(cadenaParaInvertir);
-
-    printf("Cadena ya invertida: %s\n", cadenaParaInvertir);
 
 
 
